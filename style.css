@@ -1,0 +1,194 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Open+Sans:wght@300;400;500;600;700&family=Paytone+One&family=Poppins:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+  
+    background:url(bg2.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+    
+}
+
+.con-title{
+    display:flex;
+    background-position: fixed;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+    z-index: 1001;
+  
+   
+
+
+}
+
+.con{
+    display:flex;
+    width:190px;
+    height:50px;
+   
+   padding-left:20px;
+    margin-left:26px;
+    margin-right:20px;
+    padding-top:10px;
+    border-radius: 5px;;
+   
+}
+
+
+.con p{
+    font-size: 14px;
+    font-weight:600;
+}
+.con:hover{
+    background-color: white;
+    
+    cursor: pointer;
+
+}
+
+.con img{
+    height:20px;
+    width:20px;
+    margin-right:22px;
+}
+
+.sec-title{
+    margin-bottom:15px;
+    margin-top:15px;
+    margin-left:40px;
+}
+.side-bar::-webkit-scrollbar{
+    display:none;
+}
+.side-bar{
+position: absolute;
+overflow-y: scroll;
+overflow-x: hidden;
+   background:rgba(255,255,255,0.2);
+   backdrop-filter: blur(17px);
+    height:100%;
+   
+ /*   width:265px;*/
+    width:110px;
+    border-right: 1px solid rgba(255,255,255,0.7);
+    z-index: 1000;
+    
+    
+    
+}
+.sec-title{
+    display:none;
+}
+.side-bar:hover {
+    cursor: pointer;
+    width:265px;
+
+
+}
+.side-bar:hover .hr{
+    display:none;
+}
+.side-bar:hover .sec-title{
+    display: block;
+}
+
+
+
+.side-bar:hover .con p{
+    display:block;
+}
+
+.con-title img{
+    margin-left:26px;
+    width:60px;
+    margin-top:24px;
+    margin-bottom: 10px;
+
+}
+
+.con-title h4{
+    font-size: 20px;
+    margin-top:40px;
+    display:none;
+}
+
+
+
+.side-bar:hover .con-title img{
+    margin-left:27px;
+    width:70px;
+    margin-top:24px;
+
+}
+
+
+.side-bar:hover .con-title h4{
+    font-size: 20px;
+    margin-top:40px;
+}
+
+
+.side-bar:hover .con{
+   
+    margin-left:30px;
+   
+   
+}
+
+
+
+
+.side-bar:hover .con img{
+    height:25px;
+    width:25px;
+   
+}
+
+
+
+.side-bar:hover .hr{
+   
+    margin-top:25px;
+    margin-bottom: 25px;
+    
+}
+
+
+
+
+.side-bar:hover .con-title h4{
+   
+    display:block;
+}
+
+.conlog{
+    margin-top:20px;
+}
+
+.hr{
+    width:27px;
+    height:2px;
+    margin-left:45px;
+    background-color:black;
+    border:none;
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+}
+
+.con p{
+    display:none;
+}
